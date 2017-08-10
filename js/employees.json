@@ -1,0 +1,131 @@
+{
+    "employees": [
+        {
+            "id": "danille",
+            "name": "Danielle Vogel",
+            "title": "Business Owner / Web Designer",
+            "img": "img/danielle-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "",
+                "linkedin": "https://linkedin.com"
+            },
+            "specialites": [
+                "User Experience Design",
+                "AA in Graphic Design for Print",
+                "Responsive Web Design",
+                "BS in Web Design and Interactive Media",
+                "An odd number item"
+            ]
+        },
+        {
+            "id": "dustin",
+            "name": "Dustin Smith",
+            "title": "Website Consultant",
+            "img": "img/dustin-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "https://twitter.com",
+                "linkedin": "http://linkedin.com"
+            },
+            "specialites": [
+                "Customer Service Specialist",
+                "Big Smile",
+                "Some Other Cool Stuff",
+                "Super cool and awesome"
+            ]
+        },
+        {
+            "id": "kelly",
+            "name": "Kelly Comer",
+            "title": "Website Consultant",
+            "img": "img/kelly-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "https://twitter.com",
+                "linkedin": "http://linkedin.com"
+            },
+            "specialites": [
+                "Customer Service Specialist",
+                "Big Smile",
+                "Some Other Cool Stuff",
+                "Boss Ass MoFucka"
+            ]
+        },
+        {
+            "id": "tiffany",
+            "name": "Tiffany Smith",
+            "title": "Project Manager",
+            "img": "img/tiffany-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "https://twitter.com",
+                "linkedin": ""
+            },
+            "specialites": [
+                "Customer Service Specialist",
+                "Big Smile",
+                "Some Other Cool Stuff",
+                "Super cool and awesome"
+            ]
+        },
+        {
+            "id": "juan",
+            "name": "Juan Villalobos",
+            "title": "Web Developer",
+            "img": "img/juan-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://www.facebook.com/juan.a.villalobos.16",
+                "twitter": "https://twitter.com/JuanLobos22",
+                "linkedin": "https://www.linkedin.com/in/juanavillalobos/"
+            },
+            "specialites": [
+                "User Experience Development",
+                "Responive Web Development",
+                "Web Application Front End UI",
+                "BS in Computer Information Systems"
+            ]
+        },
+        {
+            "id": "bree",
+            "name": "Bree Sears",
+            "title": "Web Developer",
+            "img": "img/bree-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "https://twitter.com",
+                "linkedin": "http://linkedin.com"
+            },
+            "specialites": [
+                "Customer Service Specialist",
+                "Big Smile",
+                "Some Other Cool Stuff",
+                "Super cool and awesome"
+            ]
+        },
+        {
+            "id": "heather",
+            "name": "Heather Nyhof",
+            "title": "Writer",
+            "img": "img/heather-placeholder.jpg",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum laoreet bibendum turpis ac facilisis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus mattis, mi vel molestie sagittis, risus mi aliquam neque, et consequat justo nulla quis sem. Sed dictum dignissim dolor, ac suscipit orci porttitor et. In maximus orci sed diam finibus dapibus. Morbi at urna purus.",
+            "social_icons": {
+                "facebook": "https://facebook.com",
+                "twitter": "",
+                "linkedin": "http://linkedin.com"
+            },
+            "specialites": [
+                "Customer Service Specialist",
+                "Big Smile",
+                "Some Other Cool Stuff",
+                "Boss Ass MoFucka"
+            ]
+        }
+    ]
+}

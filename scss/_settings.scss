@@ -69,8 +69,8 @@ $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #1779ba,
-  secondary: #767676,
+  primary: #148b9d,
+  secondary: #ff6c00,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -389,13 +389,13 @@ $dropdownmenu-arrow-color: $anchor-color;
 $dropdownmenu-arrow-size: 6px;
 $dropdownmenu-arrow-padding: 1.5rem;
 $dropdownmenu-min-width: 200px;
-$dropdownmenu-background: $white;
+$dropdownmenu-background: $black;
 $dropdownmenu-submenu-background: $dropdownmenu-background;
 $dropdownmenu-padding: $global-menu-padding;
 $dropdownmenu-nested-margin: 0;
 $dropdownmenu-submenu-padding: $dropdownmenu-padding;
-$dropdownmenu-border: 1px solid $medium-gray;
-$dropdown-menu-item-color-active: get-color(primary);
+$dropdownmenu-border: 1px solid transparent;
+$dropdown-menu-item-color-active: #ff6c00;//get-color(primary);
 $dropdown-menu-item-background-active: transparent;
 
 // 19. Flexbox Utilities
@@ -858,4 +858,3 @@ $grid-margin-gutters: (
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $block-grid-max: 8;
-
