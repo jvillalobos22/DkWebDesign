@@ -336,6 +336,61 @@ input[type="submit"] {
     }
 }
 
+.dk_desktop_topbar {
+    .dk_hide_desktop {
+        display: none;
+    }
+    .dropdown.menu.large-horizontal>li.is-dropdown-submenu-parent>a:hover::after,
+    .dropdown.menu.large-horizontal>li.is-dropdown-submenu-parent>a:focus::after {
+        border-color: $dkOrange transparent transparent;
+    }
+    .dropdown.menu .is-active>a:hover {
+        color: $dkOrange;
+    }
+}
+.dk_offcanvas {
+    background-color: #333;
+
+    .drilldown {
+        margin-top: 3rem;
+        a {
+            background: transparent;
+        }
+    }
+    .close-button {
+        z-index: 1;
+        color: #fff;
+        &:hover {
+            color: $dkOrange;
+        }
+    }
+    li a {
+        border-left: 3px solid transparent;
+        color: #fff;
+
+        &:hover {
+            border-left: 3px solid $dkOrange;
+            background-color: rgba(0,0,0,0.5);
+        }
+    }
+    .drilldown .is-drilldown-submenu {
+        background-color: #333;
+    }
+
+    .drilldown .is-drilldown-submenu-parent>a::after {
+        border-color: transparent transparent transparent #fff;
+    }
+    .drilldown .js-drilldown-back>a::before {
+        border-color: transparent #fff transparent transparent;
+    }
+    .drilldown .js-drilldown-back>a:hover::before {
+        border-color: transparent $dkOrange transparent transparent;
+    }
+    .drilldown .is-drilldown-submenu-parent>a:hover::after {
+        border-color: transparent transparent transparent $dkOrange;
+    }
+}
+
 .dk_mobile_topbar {
     display: none;
 }
@@ -356,15 +411,13 @@ input[type="submit"] {
     }
     a.dk_selected {
         color: $dkBlue;
+        &:hover, &:focus {
+            color: $dkOrange;
+        }
     }
     a.dk_nav_callout_btn {
         text-shadow: none;
         background: $dkOrange;
-        // margin-top: -0.5rem;
-        // margin-bottom: -0.5rem;
-        // margin-right: 0.4375rem;
-        // padding-top: 1.25rem;
-        // height: 56px;
 
         &:hover {
             background-color: darken($dkOrange, 10%);
@@ -373,7 +426,7 @@ input[type="submit"] {
     }
 
     ul.submenu {
-        margin-top: 7px;
+        margin-top: 0;
 
         a {
             text-transform: none;
@@ -1756,6 +1809,9 @@ section.dk_slider {
             margin-left: 6em;
             margin-right: 6em;
         }
+    }
+    .dk_testimonial_section .dk_testimonial_full {
+        padding: 0 0.625rem;
     }
     .dk_main_content .dk_homepage_showcase .dk_recent_works img {
         margin-bottom: 1em;

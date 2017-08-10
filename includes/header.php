@@ -25,9 +25,8 @@
     </script>
     <!-- End Facebook SDK -->
 
-    <div class="off-canvas-wrapper">
-    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition-time="500">
+
+        <div class="off-canvas position-left dk_offcanvas" id="offCanvas" data-off-canvas data-transition-time="500">
             <!-- Your menu or Off-canvas content goes here -->
             <!-- Close button -->
             <button class="close-button" aria-label="Close menu" type="button" data-close>

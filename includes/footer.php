@@ -27,8 +27,6 @@
         </div>
     </footer>
 </div><!-- /off-canvas-content -->
-</div>
-</div>
 
     <!-- Local Host -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
