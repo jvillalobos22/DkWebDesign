@@ -8,6 +8,11 @@
     <script src="https://use.fontawesome.com/1b6c5f7bcd.js"></script>
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/app.css">
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
 
     <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Must be present in head of page -->
   </head>
