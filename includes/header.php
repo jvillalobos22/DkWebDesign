@@ -70,7 +70,7 @@
                         </button> -->
                         <button type="button" class="dk_responsive_toggle" data-toggle="offCanvas"><i class="fa fa-bars" aria-hidden="true"></i>
                         Menu</button>
-                        <a class="dk_nav_callout_btn" href="#">Request a Quote</a>
+                        <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
                         <!--<div class="title-bar-title">Main Menu</div>-->
                     </div>
                 </div>

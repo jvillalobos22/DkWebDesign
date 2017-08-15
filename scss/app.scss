@@ -69,6 +69,7 @@
     #Sidebar Styles
 	#Homepage
     #Secondary Page
+    #Blog
     #Footer
 	#Media Queries
 ==============================================================================*/
@@ -189,7 +190,7 @@ ul {
 /*******************************************************************************
 * #. Button Styles
 *******************************************************************************/
-.dk_button, input[type="submit"] {
+.dk_button, input[type="submit"], .dk_sidebar .button {
     display: inline-block;
     color: #fff;
     padding: 0.5em 1em;
@@ -1141,6 +1142,13 @@ section.dk_slider {
         }
     }
     .close-button {
+        right: 0.5rem;
+        padding: 0.25rem 0.5rem;
+        background-color: $dkBlue;
+
+        &:hover {
+            background-color: darken($dkBlue, 10%);
+        }
         span {
             color: #fff;
         }
@@ -1363,6 +1371,34 @@ section.dk_slider {
 .dk_call_to_action_btn {
     text-align: center;
     padding-top: 2.15em;
+}
+
+/*******************************************************************************
+* #. Blog
+*******************************************************************************/
+.dk_main_content.dk_blog {
+    article.post {
+        margin-bottom: 2.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+        margin-bottom: 0;
+    }
+    .byline {
+        font-size: 0.875rem;
+    }
+}
+.dk_sidebar {
+    ul {
+        margin-bottom: 1.5rem;
+    }
+    .button {
+        background-color: #ff6c00;
+
+        &:hover {
+            background-color: #cc5600;
+        }
+    }
 }
 
 /*******************************************************************************

@@ -12,5 +12,5 @@
 </li>
 <li><a class="<?php if($page == "our-work") { echo 'dk_selected'; } ?>" href="our-work.php">Our Work</a></li>
 <li><a class="<?php if($page == "reviews") { echo 'dk_selected'; } ?>" href="reviews.php">Reviews</a></li>
-<li><a class="<?php if($page == "blog") { echo 'dk_selected'; } ?>" href="#">Blog</a></li>
+<li><a class="<?php if($page == "blog") { echo 'dk_selected'; } ?>" href="https://www.dkwebdesign.com/blog/">Blog</a></li>
 <li><a class="<?php if($page == "contact") { echo 'dk_selected'; } ?>" href="contact.php">Contact</a></li>
