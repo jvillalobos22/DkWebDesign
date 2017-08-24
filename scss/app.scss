@@ -256,7 +256,7 @@ input[type="submit"] {
         width: 210px;
 
         &.dk_horizlogo {
-            width: 350px;
+            width: 300px;
         }
     }
 
@@ -513,7 +513,7 @@ input[type="submit"] {
         background-size: cover;
         .dk_caption {
             display: inline-block;
-            padding-top: 10%;
+            padding-top: 14%;
 
             h2 {
                 font-size: 2.325rem;
@@ -1799,7 +1799,7 @@ section.dk_slider {
             background-image: url('../img/business-web-design-sm.jpg');
 
             .dk_caption {
-                padding-top: 20%;
+                padding-top: 30%;
             }
             .dk_shape {
                 display: none;
@@ -1880,7 +1880,7 @@ section.dk_slider {
     }
 
     .dk_service {
-        text-align: center;
+        text-align: left;
         margin-bottom: 1em;
     }
     .dk_section {

@@ -23,10 +23,9 @@ include 'includes/header.php'; ?>
                 <hr>
                 <h2 class="dk_sm_mar">Organizations We Have Helped</h2>
                 <ul>
-                    <li><i class="fa fa-caret-right" aria-hidden="true"></i> Stonewall Alliance Center</li>
                     <li><i class="fa fa-caret-right" aria-hidden="true"></i> Chico Homeless Animal Outreach</li>
                     <li><i class="fa fa-caret-right" aria-hidden="true"></i> The Jesus Center</li>
-                    <li><i class="fa fa-caret-right" aria-hidden="true"></i> Project Hope</li>
+                    <li><i class="fa fa-caret-right" aria-hidden="true"></i> Project Hope Butte County</li>
                     <li><i class="fa fa-caret-right" aria-hidden="true"></i> Los Angeles Gender Center</li>
                     <li><i class="fa fa-caret-right" aria-hidden="true"></i> Top Cats on The Ridge</li>
                     <li><i class="fa fa-caret-right" aria-hidden="true"></i> Chico Cat Coalition</li>

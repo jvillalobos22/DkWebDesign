@@ -41,27 +41,7 @@ $asanorcal = array(
         'wordpress' => 'Wordpress'
     )
 );
-$blacklinemfg = array(
-    'title' => 'Blackline Manufacturing',
-    'category' => 'Ecommerce Website',
-    'url' => 'http://www.blacklinemfg.com/',
-    'pretty-url' => 'www.blacklinemfg.com',
-    'showcase_img' => 'Blackline_MFG.png',
-    'screenshot' => 'Blackline_MFG.jpg',
-    'screenshot_alt' => 'Screenshot of Blackline Manufacturing website',
-    'modal_name' => 'blacklinemfg',
-    'goals' => array(
-        'Redesign the website to make it more modern and user friendly',
-        'Create a custom map of distribution locations'
-    ),
-    'tech' => array(
-        'shopify' => 'Shopify',
-        'html5' => 'HTML 5',
-        'css3' => 'CSS 3',
-        'php' => 'PHP',
-        'javascript' => 'Javascript'
-    )
-);
+
 $chicoPerformances = array(
     'title' => 'Chico Performances',
     'category' => 'Custom Website',
@@ -201,7 +181,7 @@ $jandjAutomotive = array(
     'category' => 'Custom Website',
     'url' => '#',
     'showcase_img' => 'JJ_Auto.png',
-    'screenshot' => 'JandJAutomotive.jpg',
+    'screenshot' => 'jandjautomotive.jpg',
     'screenshot_alt' => 'Screenshot of the J and J Automotive website',
     'modal_name' => 'jandjautomotive',
     'goals' => array(
@@ -440,7 +420,6 @@ $webDesignProjects = array(
 );
 
 $ecommerceProjects = array(
-    $blacklinemfg,
     $graycGlass,
     $moodSwingWines,
     $outdoorLady,

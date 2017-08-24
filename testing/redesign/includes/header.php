@@ -8,11 +8,6 @@
     <script src="https://use.fontawesome.com/1b6c5f7bcd.js"></script>
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/app.css">
-    <!-- Favicons -->
-    <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
 
     <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Must be present in head of page -->
   </head>
@@ -30,8 +25,9 @@
     </script>
     <!-- End Facebook SDK -->
 
-
-        <div class="off-canvas position-left dk_offcanvas" id="offCanvas" data-off-canvas data-transition-time="500">
+    <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div class="off-canvas position-left" id="offCanvas" data-off-canvas data-transition-time="500">
             <!-- Your menu or Off-canvas content goes here -->
             <!-- Close button -->
             <button class="close-button" aria-label="Close menu" type="button" data-close>
@@ -62,25 +58,29 @@
                 </div>
             </header>
             <nav class="dk_nav">
-                <div class="dk_mobile_topbar">
-                    <div class="row">
+                <div class="dk_responsive_topbar_container" data-hide-for="large">
+                    <div class="row dk_responsive_topbar">
                         <!-- <button class="dk_responsive_toggle" type="button" data-toggle="offCanvas">
                             <i class="fa fa-bars" aria-hidden="true"></i>
                             Main Menu
                         </button> -->
-                        <button type="button" class="dk_responsive_toggle" data-toggle="offCanvas"><i class="fa fa-bars" aria-hidden="true"></i>
-                        Menu</button>
+                        <button type="button" class="dk_responsive_toggle" data-toggle="offCanvas">Open Menu</button>
                         <a class="dk_nav_callout_btn" href="#">Request a Quote</a>
                         <!--<div class="title-bar-title">Main Menu</div>-->
                     </div>
                 </div>
-                <div class="dk_desktop_topbar">
+
+                <div class="top-bar" id="dk-menu">
                     <div class="row">
-                        <div class="large-12 columns">
+                        <div class="top-bar-left">
                             <ul class="dk_desktopnav dropdown large-horizontal medium-vertical vertical menu" data-dropdown-menu>
                                 <?php include('includes/nav.php'); ?>
                             </ul>
-                            <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
+                        </div>
+                        <div class="top-bar-right">
+                            <ul class="menu">
+                                <li><a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>

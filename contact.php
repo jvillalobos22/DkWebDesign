@@ -4,7 +4,7 @@ $page = 'contact';
 
 $showform = true;
 $errors = '';
-$myemail = 'juan@dkwebdesign.com';  //replace with client's email address after testing is complete
+$myemail = 'danielle@dkwebdesign.com';  //replace with client's email address after testing is complete
 
 if($_SERVER["REQUEST_METHOD"] === "POST") {
     //form submitted

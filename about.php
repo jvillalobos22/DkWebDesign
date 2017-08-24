@@ -61,7 +61,7 @@
                         <img src="img/sushi.jpg" alt="Sushi">
                     </div>
                     <div class="column dk_circle_img">
-                        <img src="img/mabel.jpg" alt="Mabel">
+                        <img src="img/mabel.jpg" alt="We love dogs at DK Web Design">
                     </div>
                 </div>
             </div>

@@ -87,11 +87,11 @@
         <div class="row">
             <div class="large-8 medium-7 small-12 columns">
                 <h3>Giving Back to the Chico Community</h3>
-                <p>It is part of our mission to give back to the community by donating our skill set as well as making monetary donations. Each month, we select a local non-profit organization to receive a portion of our sales. August's donation recipient is <strong>Stonewall Alliance Center</strong>.</p>
+                <p>It is part of our mission to give back to the community by donating our skill set as well as making monetary donations. Each month, we select a local non-profit organization to receive a portion of our sales. August's donation recipient is <strong>Project Hope Butte County</strong>.</p>
                 <a class="dk_button dk_secondary_btn" href="giving-back-to-chico.php">Learn More</a>
             </div>
             <div class="large-4 medium-5 small-12 columns">
-                <a href="http://www.stonewallchico.org" rel="nofollow" target="_blank"><img class="dk_recipient" src="img/stonewall-alliance-logo.jpg"></a>
+                <a href="https://www.facebook.com/ProjectHopeButte/" rel="nofollow" target="_blank"><img class="dk_recipient" src="img/project-hope-butte-county-logo.jpg"></a>
             </div>
         </div>
     </section>

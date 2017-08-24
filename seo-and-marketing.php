@@ -26,7 +26,7 @@ include 'includes/header.php' ?>
                 </div>
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/content-writing.jpg" alt="Content Writing and Editing"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Content Writing and Editing</h2>
@@ -41,7 +41,7 @@ include 'includes/header.php' ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/search-engine-optimization.jpg" alt="Search Engine Optimization"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Search Engine Optimization</h2>
@@ -56,7 +56,7 @@ include 'includes/header.php' ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/ad-campaigns.jpg" alt="Google Adwords Campaigns"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Ad Campaigns</h2>
@@ -71,7 +71,7 @@ include 'includes/header.php' ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/social-media-management.jpg" alt="Social Media Management"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Social Media Management</h2>
@@ -86,7 +86,7 @@ include 'includes/header.php' ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/local-business-listings.jpg" alt="Local Business Listings"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Local Business Listings</h2>
@@ -101,7 +101,7 @@ include 'includes/header.php' ?>
 
                 <div class="dk_service last collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/web-hosting.jpg" alt="Web Hosting"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Website Hosting</h2>

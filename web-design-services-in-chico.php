@@ -27,7 +27,7 @@ include 'includes/header.php'; ?>
                 </div>
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/free-webstite-consultation.jpg" alt="Project Planning and Organization"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Project Planning and Organization</h2>
@@ -42,7 +42,7 @@ include 'includes/header.php'; ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/template-websites.jpg" alt="Template Websites"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Template Websites</h2>
@@ -58,7 +58,7 @@ include 'includes/header.php'; ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/custom-websites.jpg" alt="Custm Websites"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Custom Websites</h2>
@@ -73,7 +73,7 @@ include 'includes/header.php'; ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/mobile-friendly-websites.jpg" alt="Placeholder"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Mobile Friendly Websites</h2>
@@ -88,7 +88,7 @@ include 'includes/header.php'; ?>
 
                 <div class="dk_service collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/ecommerce-websites.jpg" alt="Placeholder"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Online Stores (Ecommerce)</h2>
@@ -103,7 +103,7 @@ include 'includes/header.php'; ?>
 
                 <div class="dk_service last collapse">
                     <div class="dk_left">
-                        <img src="http://via.placeholder.com/350x250" alt="Placeholder"/>
+                        <img src="img/content-management-systems.jpg" alt="Placeholder"/>
                     </div><!--
                     --><div class="dk_right">
                         <h2>Content Management Systems</h2>

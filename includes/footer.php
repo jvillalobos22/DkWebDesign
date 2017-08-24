@@ -5,7 +5,7 @@
                     <h2>Get the website you need to reach your business goals.</h2>
                     <div class="dk_social">
                         <a class="dk_facebook" href="https://www.facebook.com/dkdesignsca/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a class="dk_twitter" href="https://twitter.com/DKWDchico" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                          <a class="dk_linkedin" href="https://www.linkedin.com/company/dk-web-design-llc" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         <a class="dk_yelp" href="https://www.yelp.com/biz/dk-web-design-chico-2" target="_blank"><i class="fa fa-yelp" aria-hidden="true"></i></a>
                         <a class="dk_google" href="https://www.google.com/search?q=dk+web+design&lrd=0x8082d85fd7b2a307:0x3fe1b0a7d3f9f455,1,&cad=h" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                         <a class="dk_instagram" href="https://www.instagram.com/dkwebdesign/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>

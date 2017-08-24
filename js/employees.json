@@ -1,116 +1,101 @@
 {
     "employees": [
         {
-            "id": "danille",
+            "id": "danielle",
             "name": "Danielle Vogel",
-            "title": "Business Owner / Web Designer",
+            "title": "Director of Operations",
             "img": "img/danielle-vogel-web-designer.jpg",
             "desc": "Opening DK Web Design was a life long desire in the making. It has allowed me to not only do what I love on a daily basis but also support causes that I deeply care about. My passion is helping people and this business allows me to do just that. Outside of work I enjoy spending down time with my husband and our two dogs, traveling, and trying as many new foods as possible!",
             "social_icons": {
                 "facebook": "https://www.facebook.com/danielledkwebdesign",
-                "linkedin": "https://www.linkedin.com/in/daniellenyhof/"
+                "linkedin": "https://www.linkedin.com/in/dkwebdesignchico/"
             },
             "specialites": [
-                "User Experience Design",
-                "AA in Graphic Design for Print",
-                "Responsive Web Design",
-                "BS in Web Design and Interactive Media",
-                "Loves Dogs"
+                "A.A. in Graphic Design for Print",
+                "B.S. in Web Design and Interactive Media",
+                "Stops to say hi to every dog she sees",
+				"Favorite Shows: Walking Dead, Game of Thrones"
             ]
         },
-        {
-            "id": "dustin",
-            "name": "Dustin Smith",
-            "title": "Website Consultant",
-            "img": "img/dustin-placeholder.jpg",
-            "desc": "Every day is a gift and I take it as such, making sure to capture every moment. I joined DK Web Design because it has been my dream to join a company and grow with it. My goal is to find the best solution for you and make sure that you understand your options. I love my job and look forward to helping you reach your goals!",
-            "social_icons": {
-                "facebook": "https://www.facebook.com/dustin8082",
-                "linkedin": "https://www.linkedin.com/in/dustin-smith-483730102/"
-            },
-            "specialites": [
-                "BBA in Marketing/Management",
-                "US Air Force Reserves",
-                "Customer Service",
-                "Business Networking"
-            ]
-        },
-        {
-            "id": "tiffany",
-            "name": "Tiffany Smith",
-            "title": "Project Manager",
-            "img": "img/tiffany-smith-project-manager.jpg",
-            "desc": "Helping others is what I'm most passionate about whether it's a four-legged friend, other students on campus, or the clients I get to meet and work with! I have been working in customer service for roughly ten years and have genuinely enjoyed every moment of it. My goal as a Project Manager is to provide each of my clients a wonderful experience while maintaining a professional, comfortable, and enjoyable atmosphere. In addition to helping others, I find happiness in art which has driven my love for painting, drawing, cinema, and music.",
-            "social_icons": {
-                "linkedin": "https://www.linkedin.com/in/tiffany-smith-426a1355/"
-            },
-            "specialites": [
-                "Customer Service and Engagement",
-                "Organization/Attention to Detail",
-                "Clear Communication"
-            ]
-        },
-        {
-            "id": "juan",
-            "name": "Juan Villalobos",
-            "title": "Web Developer",
-            "img": "img/juan-villalobos-web-developer.jpg",
-            "desc": "Golfer, Developer, GoPro enthusiast, and big dreamer. I live every day with a big smile on my face, and I find joy in creating minimalist, unique, easy-to-use websites. My aim is to create an experience that will engage, delight, and inspire users, leaving a lasting impression on your customers and clients.",
-            "social_icons": {
-                "linkedin": "https://www.linkedin.com/in/juanavillalobos/"
-            },
-            "specialites": [
-                "User Experience Development",
-                "BS in Computer Information Systems",
-                "Web Application Front End UI",
-                "BS in Computer Information Systems"
-            ]
-        },
-        {
-            "id": "bree",
-            "name": "Bree Sears",
-            "title": "Web Developer",
-            "img": "img/bree-sears-web-developer.jpg",
-            "desc": "I have always had an interest in computers, and that interest led me to completing a degree in Computer Information Systems from Chico State University. I find web design and development to be a main area of interest for me and feel very fortunate to be employed at such a great company where I can explore my passion fully. When I'm not building websites I enjoy spending time with my wonderful family, fire dancing, and playing the cello in my spare time.",
-            "social_icons": {
-
-            },
-            "specialites": [
-                "Responsive Web Development",
-                "BS in Computer Information Systems",
-                "Fire Dancing"
-            ]
-        },
-        {
-            "id": "heather",
-            "name": "Heather Elizabeth",
-            "title": "Writer/Editor",
-            "img": "img/heather-placeholder.jpg",
-            "desc": "I have loved reading and writing ever since I was little, so it's only natural I went on to study English Literature in college. After graduating from UC Santa Barbara with a B.A. in English I realized it's truly an art to be able to utilize words and sentence structure to appeal to your audience. When I'm not working I enjoy being with family, playing piano, reading, cooking, gardening, and hanging out with my furry friends.",
-            "social_icons": {
-                "facebook": "https://www.facebook.com/profile.php?id=100012091121357"
-            },
-            "specialites": [
-                "BA in English",
-                "Succulent Gardens"
-            ]
-        },
-        {
+		{
             "id": "kelly",
             "name": "Kelly Comer",
-            "title": "Office Admin",
-            "img": "img/kelly-placeholder.jpg",
+            "title": "Website Consultant",
+            "img": "img/kelly-comer-website-consultant.jpg",
             "desc": "My desire to learn is insatiable. I love talking with people and learning their story; I find it very inspiring!",
             "social_icons": {
                 "facebook": "https://www.facebook.com/profile.php?id=100013018865376",
                 "linkedin": "https://www.linkedin.com/in/kelly-comer-55468293/"
             },
             "specialites": [
-                "Electrial Industry Specialist",
                 "Customer Service",
                 "Business Networking",
-                "Painter"
+                "Painting & Creating",
+				"Favorite Show: Sailor Moon"
+            ]
+        },
+        {
+            "id": "bree",
+            "name": "Bree Sears",
+            "title": "Web Developer",
+            "img": "img/bree-sears-developer.jpg",
+            "desc": "I have always had an interest in computers, and that interest led me to completing a degree in Computer Information Systems from Chico State University. I find web design and development to be a main area of interest for me and feel very fortunate to be employed at such a great company where I can explore my passion fully. When I'm not building websites I enjoy spending time with my wonderful family, fire dancing, and playing the cello in my spare time.",
+            "social_icons": {
+
+            },
+            "specialites": [
+                "Responsive Web Development",
+                "B.S. in Computer Information Systems",
+                "Fire Dancing"
+            ]
+        },
+		        {
+            "id": "jas",
+            "name": "Juan Villalobos",
+            "title": "Web Developer",
+            "img": "img/juan-villalobos.jpg",
+            "desc": "Golfer, Developer, GoPro enthusiast, and big dreamer. I live every day with a big smile on my face, and I find joy in creating minimalist, unique, easy-to-use websites. My aim is to create an experience that will engage, delight, and inspire users, leaving a lasting impression on your customers and clients.",
+            "social_icons": {
+                "linkedin": "https://www.linkedin.com/in/juanavillalobos/"
+            },
+            "specialites": [
+                "B.S. in Computer Science",
+                "Loves Being Outdoors"
+            ]
+        },
+		{
+            "id": "jas",
+            "name": "Jaskarn Jagpal",
+            "title": "Programmer",
+            "img": "img/jas-jagpal-web-developer.jpg",
+            "desc": "I have been interested in computers and programming since my first encounter with a computer however I started college as a biology major and I hated every minute of it. I then realized that working on and with computers was what I really wanted to pursue. Some of my hobbies include: running, playing basketball, modding and upgrading computers, programming, and watching The Walking Dead every Sunday with friends.",
+            "social_icons": {
+                "linkedin": "https://www.linkedin.com/in/jaskarn-jagpal-178818137/?trk=pub-pbmap"
+            },
+            "specialites": [
+                "B.S. in Computer Science",
+                "Experienced Security Analyst",
+                "Skilled in Python, Java, PHP, C, and C++",
+                "Favorite Show: The Walking Dead"
+            ]
+        },
+        {
+            "id": "heather",
+            "name": "Heather Elizabeth",
+            "title": "Writer/Editor",
+            "img": "img/heather-editor.jpg",
+            "desc": "The ability to effectively communicate, inform, or persuade is a powerful tool.  I love manipulating language or changing sentence structure to appeal to a specific audience-- it's like building a puzzle from words.  Other interests include piano, gardening, hiking, rock climbing, eating, spending time with my loved ones, learning, and being an awesome auntie to some super cute dogs.",
+            "social_icons": {
+                "facebook": "https://www.facebook.com/profile.php?id=100012091121357"
+            },
+            "specialites": [
+                "B.A. in English",
+                "Expository / Persuasive / Narrative / Descriptive",
+				"Currently Writing a Memoir",
+				"Enthusiastic Succulent Collector",
+				"Enjoys Playing Piano"
             ]
         }
+
     ]
 }
