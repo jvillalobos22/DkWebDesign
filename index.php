@@ -17,16 +17,13 @@
         </div>
     </section>-->
     <section class="dk_hero dk_homehero">
-        <!-- <img src="img/business-web-design.jpg" alt="addalt"> -->
-        <div class="dk_caption">
-            <div class="dk_shape">
-
+        <div class="row dk_hero_container">
+            <div class="dk_caption">
+                <h3>Get the Website You Need</h3>
+                <h2>to Reach Your Business Goals</h2>
+                <a class="dk_button dk_secondary_btn">Get Started</a>
             </div>
-            <h3>Get the Website You Need</h3>
-            <h2>to Reach Your Business Goals</h2>
-            <a class="dk_button dk_secondary_btn">Get Started</a>
         </div>
-
     </section>
     <section class="dk_main_content">
         <div class="row dk_homemain">

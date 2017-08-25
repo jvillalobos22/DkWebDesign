@@ -465,6 +465,12 @@ input[type="submit"] {
 .dk_hero {
     border-bottom: 8px solid #095c67;
     position: relative;
+    .dk_hero_container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
 
     img {
         display: block;
@@ -473,15 +479,9 @@ input[type="submit"] {
         max-width: 1600px;
     }
     .dk_caption {
-        width: 100%;
+        width: 45%;
         max-width: 1400px;
-        display: block;
-        margin: 0 auto;
-        position: absolute;
-        top: 0;
-        left: 0.9375rem;
-        right: 0;
-        bottom: 0;
+        display: inline-block;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -511,10 +511,10 @@ input[type="submit"] {
         background-image: url('../img/business-web-design.jpg');
         height: 550px;
         background-size: cover;
+        background-position: center;
         .dk_caption {
             display: inline-block;
-            padding-top: 14%;
-
+            padding-left: 0.9375rem;
             h2 {
                 font-size: 2.325rem;
             }
@@ -717,6 +717,7 @@ section.dk_slider {
     position: relative;
     text-align: center;
     padding: 4.5rem 0;
+    background-size: cover;
     &:before {
         content: '';
         position: absolute;
@@ -1799,7 +1800,7 @@ section.dk_slider {
             background-image: url('../img/business-web-design-sm.jpg');
 
             .dk_caption {
-                padding-top: 30%;
+                width: 100%;
             }
             .dk_shape {
                 display: none;
