@@ -21,7 +21,7 @@
             <div class="dk_caption">
                 <h3>Get the Website You Need</h3>
                 <h2>to Reach Your Business Goals</h2>
-                <a class="dk_button dk_secondary_btn">Get Started</a>
+                <a class="dk_button dk_secondary_btn" href="request-a-website-quote.php">Get Started</a>
             </div>
         </div>
     </section>

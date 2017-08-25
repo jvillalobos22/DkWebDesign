@@ -1143,8 +1143,10 @@ section.dk_slider {
         }
     }
     .close-button {
-        right: 0.5rem;
-        padding: 0.25rem 0.5rem;
+        right: 0.25rem;
+        padding: 0.125rem 0.25rem;
+        top: 0.25rem;
+        font-size: 24px;
         background-color: $dkBlue;
 
         &:hover {
