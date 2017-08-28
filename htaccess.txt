@@ -1,0 +1,11 @@
+#This code should remove the extensions from our urls
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#301 redirects, not sure if they still need extensions since we have the above code
+Redirect 301 http://www.dkwebdesign.com/our-team.php  http://www.dkwebdesign.com/about.php
+Redirect 301 http://www.dkwebdesign.com/what-we-do.php http://www.dkwebdesign.com/services.php
+Redirect 301 http://www.dkwebdesign.com/pay-your-bill.php http://www.dkwebdesign.com/payments.php
+Redirect 301 http://www.dkwebdesign.com/request-a-quote.php http://www.dkwebdesign.com/reqyest-a-website-quote.php
+Redirect 301 http://www.dkwebdesign.com/powerlistings.php http://www.dkwebdesign.com/services.php

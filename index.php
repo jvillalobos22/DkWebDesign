@@ -1,21 +1,12 @@
-<?php $page = 'home' ?>
-<?php include 'includes/header.php' ?>
+<?php
+$page = 'home';
+$title = 'Web Design Chico, CA';
+$metaDesc = 'A Chico web design company which provides website design and web development services to small-medium sized businesses. Call today for your free quote!';
+$metaKeys = 'chico web design, business web design, professional web design, web design chico ca';
+
+include 'includes/header.php' ?>
 <!-- ***** Home Page ******************************************************* -->
 <div class="dk_home">
-    <!--<section class="dk_slider">
-        <div class="orbit" role="region" aria-label="Dk Web Design Slider" data-orbit>
-            <ul class="orbit-container">
-                <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
-                <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-                <li class="is-active orbit-slide">
-                    <img src="img/slider-placeholder-1.jpg">
-                </li>
-                <li class="orbit-slide">
-                    <img src="img/slider-placeholder-1.jpg">
-                </li>
-            </ul>
-        </div>
-    </section>-->
     <section class="dk_hero dk_homehero">
         <div class="row dk_hero_container">
             <div class="dk_caption">
@@ -35,10 +26,10 @@
                     <p>When you work with DK Web Design, you are working with a company that has your best interest at heart. We aim to create long term relationships with our clients built on <strong>trust,  honesty,  and transparency</strong>.  We know you didn’t get into business to worry about your website - that’s our job. We help you focus on what’s important to you - running a successful business.</p>
                     <p>We never truly leave your side, even when a website is complete; we are always here to answer your questions and support you on your journey through business.</p>
                     <!-- Calendly link widget begin -->
-<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
-<a href="" class="dk_button dk_primary" onclick="Calendly.showPopupWidget('https://calendly.com/dkwebdesign/60minconsultation');return false;">Schedule a Consultation</a>
-<!-- Calendly link widget end -->
+                    <link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://calendly.com/assets/external/widget.js" type="text/javascript"></script>
+                    <a href="" class="dk_button dk_primary" onclick="Calendly.showPopupWidget('https://calendly.com/dkwebdesign/60minconsultation');return false;">Schedule a Consultation</a>
+                    <!-- Calendly link widget end -->
                     <a class="dk_button dk_primary" href="our-work.php">View Our Work</a>
                     <div class="dk_screenshot_sliderdiv">
                         <div class="my-slider">

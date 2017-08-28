@@ -1,13 +1,17 @@
 <?php
 $pageGroup = 'services';
 $page = 'optimization';
-include 'includes/header.php' ?>
+$title = 'Optimization and Marketing';
+$metaDesc = 'DK Web Design can help you get your website infront of more people through a variety of platforms such as social media, pay per click campaigns, search engine optimization, and more!';
+$metaKeys = '';
+
+include 'includes/header.php'; ?>
 <!-- ***** What We Do Page ************************************************* -->
 <div class="dk_secondary">
     <section class="dk_hero">
         <div class="row">
             <div class="large-12 columns">
-                <h2>Optimization and Marekting</h2>
+                <h2>Optimization and Marketing</h2>
             </div>
         </div>
     </section>

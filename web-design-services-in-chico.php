@@ -1,6 +1,10 @@
 <?php
 $pageGroup = 'services';
 $page = 'design';
+$title = 'Web Design Services in Chico, CA';
+$metaDesc = 'At DK Web Design, we offer a variety of web design and development services in order to provide you with various options for attaining the professional website your business deserves.';
+$metaKeys = '';
+
 include 'includes/header.php'; ?>
 <!-- ***** What We Do Page ************************************************* -->
 <div class="dk_secondary">

@@ -1,11 +1,14 @@
 <?php
-$page='pay';
-include 'includes/header.php'; 
+$page = 'pay';
+$title = 'Make a Payment';
+$metaDesc = '';
+$metaKeys = '';
+
+include 'includes/header.php';
 
 // API Setup parameters
 $gatewayURL = 'https://paymentdepot.transactiongateway.com/api/v2/three-step';
 $APIKey = 'dk3XT7843vFrz6CZ43v758ybe2Xgsk53';
-
 ?>
 
 <div class="dk_secondary dk_services">
@@ -317,7 +320,7 @@ $APIKey = 'dk3XT7843vFrz6CZ43v758ybe2Xgsk53';
             }
             ?>
             </div>
-            
+
             <div class="large-4 medium-5 small-12 columns">
                 <h2>Office Address</h2>
                 <p>DK Web Design<br />
@@ -377,4 +380,3 @@ function appendXmlNode($domDocument, $parentNode, $name, $value) {
     $parentNode->appendChild($childNode);
 }
 ?>
-

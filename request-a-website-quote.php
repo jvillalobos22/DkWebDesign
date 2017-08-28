@@ -1,5 +1,8 @@
 <?php
 $page = 'request-a-quote';
+$title = 'Request a Quote';
+$metaDesc = '';
+$metaKeys = '';
 
 $showform = true;
 $errors = '';

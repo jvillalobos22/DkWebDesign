@@ -1,6 +1,10 @@
 <?php
 $pageGroup = 'services';
 $page = 'givingback';
+$title = 'Giving Back to Chico';
+$metaDesc = ' We offer our services at a discounted rate to nonprofit organizations in order to help them get the web presense they need without breaking the bank.';
+$metaKeys = '';
+
 include 'includes/header.php'; ?>
 <!-- ***** What We Do Page ************************************************* -->
 <div class="dk_secondary dk_services">

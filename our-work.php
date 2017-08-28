@@ -1,9 +1,12 @@
 <?php
     $page = 'our-work';
+    $title = 'Website Portfolio';
+    $metaDesk = 'Recent work completed by our chico web design team. Call today for a free quote!';
+    $metaKeys = '';
     include 'includes/web-projects.php';
 ?>
 
-<?php include 'includes/header.php' ?>
+<?php include 'includes/header.php'; ?>
 <!-- ***** Our Work Page *************************************************** -->
 <div class="dk_secondary">
     <section class="dk_hero">

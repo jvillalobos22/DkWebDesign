@@ -4,7 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DK Web Design</title>
+    <title>DK Web Design | <?php echo $title; ?></title>
+    <?php if($metaDesc) { ?>
+        <meta name="description" content="<?php echo $metaDesc; ?>">
+    <?php } else { ?>
+        <meta name="description" content="A Chico web design company which provides website design and web development services to small-medium sized businesses. Call today for your free quote!">
+    <?php } ?>
+    <?php if($metaKeys) { ?>
+        <meta name="keywords" content="<?php echo $metaKeys; ?>">
+    <?php } ?>
+    <meta name="author" content="Danielle Vogel">
+
     <script src="https://use.fontawesome.com/1b6c5f7bcd.js"></script>
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/app.css">

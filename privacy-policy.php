@@ -1,5 +1,9 @@
 <?php
 $page = 'contact';
+$title = 'Privacy Policy';
+$metaDesc = 'Your privacy is our top concern. Get the details here.';
+$metaKeys = '';
+
 ?>
 <?php include 'includes/header.php' ?>
 

@@ -1,5 +1,10 @@
-<?php $page = 'reviews' ?>
-<?php include 'includes/header.php' ?>
+<?php
+$page = 'reviews';
+$title = 'What Our Clients Are Saying';
+$metaDesc = 'Word of mouth is the best advertising because it means you\'re doing something right. See what our clients have to say about our chico web design company.';
+$metaKeys = '';
+?>
+<?php include 'includes/header.php'; ?>
 <!-- ***** What We Do Page ************************************************* -->
 <div class="dk_secondary">
     <section class="dk_hero">

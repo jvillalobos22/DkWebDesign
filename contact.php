@@ -1,6 +1,8 @@
 <?php
-
 $page = 'contact';
+$title = 'Contact Us';
+$metaDesc = '';
+$metaKeys = '';
 
 $showform = true;
 $errors = '';

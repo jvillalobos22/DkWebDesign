@@ -1,5 +1,11 @@
-<?php $page = 'about' ?>
-<?php include 'includes/header.php' ?>
+<?php
+$page = 'about';
+$title = 'Get to Know Our Team';
+$metaDesc = 'Get to know the people behind your business web design! Call today for a free quote!';
+$metaKeys = '';
+
+?>
+<?php include 'includes/header.php'; ?>
 <!-- ***** About Page ****************************************************** -->
 <div class="dk_secondary dk_about_page">
     <section class="dk_hero">

@@ -1,4 +1,9 @@
-<?php $page = 'services' ?>
+<?php
+$page = 'services';
+$title = 'Web Design Services in Chico, CA';
+$metaDesc = 'Our Chico web design company offers a variety of services for your business! Call today for a free quote!';
+$metaKeys = '';
+?>
 <?php include 'includes/header.php' ?>
 <!-- ***** What We Do Page ************************************************* -->
 <div class="dk_secondary dk_services">
