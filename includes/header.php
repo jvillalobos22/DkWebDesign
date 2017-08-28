@@ -27,6 +27,17 @@
     <script src='https://www.google.com/recaptcha/api.js'></script> <!-- Must be present in head of page -->
   </head>
   <body>
+    <!---- GA --->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-33617584-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
     <!-- Facebook SDK -->
     <div id="fb-root"></div>
     <script>
@@ -58,7 +69,7 @@
             <!-- Your page content lives here -->
             <header class="dk_header">
                 <div class="row">
-                    <a href="index" class="animated rollIn">
+                    <a href="index.php" class="animated rollIn">
                         <img class="dk_horizlogo" src="img/dk-webdesign-logo.png" alt="DK Web Design Logo">
                         <!-- <img src="img/dkwd-RGB-whitetext.png" alt="DK Web Design Logo"> -->
                     </a>
@@ -80,7 +91,7 @@
                         </button> -->
                         <button type="button" class="dk_responsive_toggle" data-toggle="offCanvas"><i class="fa fa-bars" aria-hidden="true"></i>
                         Menu</button>
-                        <a class="dk_nav_callout_btn" href="request-a-website-quote">Request a Quote</a>
+                        <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
                         <!--<div class="title-bar-title">Main Menu</div>-->
                     </div>
                 </div>
@@ -90,7 +101,7 @@
                             <ul class="dk_desktopnav dropdown large-horizontal medium-vertical vertical menu" data-dropdown-menu>
                                 <?php include('includes/nav.php'); ?>
                             </ul>
-                            <a class="dk_nav_callout_btn" href="request-a-website-quote">Request a Quote</a>
+                            <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
                         </div>
                     </div>
                 </div>
