@@ -1,0 +1,12 @@
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#301 redirects, not sure if they still need extensions since we have the above code
+Redirect 301 /our-team.php  https://www.dkwebdesign.com/about.php
+Redirect 301 /what-we-do.php https://www.dkwebdesign.com/services.php
+Redirect 301 /pay-your-bill.php https://www.dkwebdesign.com/payments.php
+Redirect 301 /request-a-quote.php https://www.dkwebdesign.com/request-a-website-quote.php
+Redirect 301 /powerlistings.php https://www.dkwebdesign.com/services.php

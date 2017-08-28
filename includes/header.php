@@ -58,7 +58,7 @@
             <!-- Your page content lives here -->
             <header class="dk_header">
                 <div class="row">
-                    <a href="index.php" class="animated rollIn">
+                    <a href="index" class="animated rollIn">
                         <img class="dk_horizlogo" src="img/dk-webdesign-logo.png" alt="DK Web Design Logo">
                         <!-- <img src="img/dkwd-RGB-whitetext.png" alt="DK Web Design Logo"> -->
                     </a>
@@ -80,7 +80,7 @@
                         </button> -->
                         <button type="button" class="dk_responsive_toggle" data-toggle="offCanvas"><i class="fa fa-bars" aria-hidden="true"></i>
                         Menu</button>
-                        <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
+                        <a class="dk_nav_callout_btn" href="request-a-website-quote">Request a Quote</a>
                         <!--<div class="title-bar-title">Main Menu</div>-->
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                             <ul class="dk_desktopnav dropdown large-horizontal medium-vertical vertical menu" data-dropdown-menu>
                                 <?php include('includes/nav.php'); ?>
                             </ul>
-                            <a class="dk_nav_callout_btn" href="request-a-website-quote.php">Request a Quote</a>
+                            <a class="dk_nav_callout_btn" href="request-a-website-quote">Request a Quote</a>
                         </div>
                     </div>
                 </div>
