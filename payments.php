@@ -1,7 +1,7 @@
 <?php
 $page = 'pay';
 $title = 'Make a Payment';
-$metaDesc = '';
+$metaDesc = 'Make a payment on your invoice using this form.';
 $metaKeys = '';
 
 include 'includes/header.php';

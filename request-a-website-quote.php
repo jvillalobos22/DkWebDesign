@@ -1,7 +1,7 @@
 <?php
 $page = 'request-a-quote';
 $title = 'Request a Quote';
-$metaDesc = '';
+$metaDesc = 'Fill out the form to receive a customized quote for web services from DK Web Design.';
 $metaKeys = '';
 
 $showform = true;

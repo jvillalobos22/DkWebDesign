@@ -1,7 +1,7 @@
 <?php
 $page = 'contact';
 $title = 'Contact Us';
-$metaDesc = '';
+$metaDesc = 'Contact DK Web Design today.';
 $metaKeys = '';
 
 $showform = true;
