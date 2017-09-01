@@ -64,20 +64,25 @@
     2. Screenshot Windows
     3. Button Styles
   	4. Header/Nav
-    #Off Canvas Nav
-    #Content Area
-    #Sidebar Styles
-	#Homepage
-    #Secondary Page
-    #Blog
-    #Footer
-	#Media Queries
+    5. Hero Styles
+    6. Slider Styles
+    7. Content Styles
+    8. Homepage Specific
+    9. Secondary Pages
+    10. About Page
+    11. Services Pages
+    12. Our Work Page Styles
+    13. Reviews Page Styles
+    14. Contact Page Styles
+    15. Call To Action Styles
+    16. Blog
+    17. Footer Styles
+	18. Media Queries
 ==============================================================================*/
 
 /*******************************************************************************
 * 1. Global Styles
 *******************************************************************************/
-
 $dkBlue: #148b9d;
 $dkLightBlue: #1db4c9;
 $dkOrange: #ff6c00;
@@ -188,7 +193,7 @@ ul {
 }
 
 /*******************************************************************************
-* #. Button Styles
+* 3. Button Styles
 *******************************************************************************/
 .dk_button, input[type="submit"], .dk_sidebar .button {
     display: inline-block;
@@ -239,6 +244,7 @@ input[type="submit"] {
         }
     }
 }
+
 /*******************************************************************************
 * 4. Header/Nav
 *******************************************************************************/
@@ -459,8 +465,9 @@ input[type="submit"] {
 .dropdown.menu.large-horizontal > li.is-dropdown-submenu-parent > a:hover::after {
     border-color: $dkOrange transparent transparent;
 }
+
 /*******************************************************************************
-* #. Hero Styles
+* 5. Hero Styles
 *******************************************************************************/
 .dk_hero {
     border-bottom: 8px solid #095c67;
@@ -545,15 +552,16 @@ input[type="submit"] {
         text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     }
 }
-/*******************************************************************************
-* 2. Slider Styles
-*******************************************************************************/
 
+/*******************************************************************************
+* 6. Slider Styles
+*******************************************************************************/
 section.dk_slider {
     text-align: center;
 }
+
 /*******************************************************************************
-* 2. Content Styles
+* 7. Content Styles
 *******************************************************************************/
 .dk_callout_box {
     border: 1px solid #52c6d6;
@@ -709,9 +717,8 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Homepage Specific
+* 8. Homepage Specific
 *******************************************************************************/
-
 .dk_testimonial_section {
     background-image: url('../img/testimonial-bg.jpg');
     position: relative;
@@ -790,7 +797,7 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Secondary Pages
+* 9. Secondary Pages
 *******************************************************************************/
 .dk_secondary {
     .dk_bottom_blue {
@@ -858,10 +865,10 @@ section.dk_slider {
         margin-top: 1rem;
     }
 }
-/*******************************************************************************
-* #. About Page
-*******************************************************************************/
 
+/*******************************************************************************
+* 10. About Page
+*******************************************************************************/
 .dk_employee_module {
     .add-padding {
         padding: 3rem 0;
@@ -936,9 +943,8 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Services Pages
+* 11. Services Pages
 *******************************************************************************/
-
 .dk_servicelists {
     h2 {
         font-weight: 600;
@@ -983,9 +989,8 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Our Work Page Styles
+* 12. Our Work Page Styles
 *******************************************************************************/
-
 .dk_category_select {
     text-align: right;
     margin-top: -30px;
@@ -1165,8 +1170,9 @@ section.dk_slider {
 .dk_website_small.dk_hide_medium_up {
     display: none;
 }
+
 /*******************************************************************************
-* #. Reviews Page Styles
+* 13. Reviews Page Styles
 *******************************************************************************/
 .dk_review {
     padding-bottom: 1rem;
@@ -1288,7 +1294,7 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Contact Page Styles
+* 14. Contact Page Styles
 *******************************************************************************/
 .dk_contact {
     label {
@@ -1360,8 +1366,9 @@ section.dk_slider {
         padding-bottom: 100%; /* This is the aspect ratio */
     }
 }
+
 /*******************************************************************************
-* #. Call To Action Styles
+* 15. Call To Action Styles
 *******************************************************************************/
 .dk_call_to_action {
     margin-bottom: 1em;
@@ -1377,7 +1384,7 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Blog
+* 16. Blog
 *******************************************************************************/
 .dk_main_content.dk_blog {
     article.post {
@@ -1405,7 +1412,7 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Footer Styles
+* 17. Footer Styles
 *******************************************************************************/
 .dk_footer_top {
     width: 100%;
@@ -1482,10 +1489,6 @@ section.dk_slider {
     }
 }
 
-.dk_footer_main {
-
-}
-
 .dk_footer_bottom {
     color: #fff;
     background-color: #000000;
@@ -1509,7 +1512,7 @@ section.dk_slider {
 }
 
 /*******************************************************************************
-* #. Media Queries
+* 18. Media Queries
 *******************************************************************************/
 @media screen and (max-width: 1410px) {
     .dk_header .dk_header_right {
@@ -1970,7 +1973,6 @@ section.dk_slider {
     }
 }
 
-
 @media screen and (max-width: 525px) {
     .dk_hero .dk_caption {
         text-align: center;
@@ -1995,11 +1997,3 @@ section.dk_slider {
         }
     }
 }
-
-
-
-
-
-
-
-/**************** End Custom Styles *****************************************/
